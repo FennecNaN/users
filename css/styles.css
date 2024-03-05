@@ -10,4 +10,38 @@ h1 {
   color: #333;
 }
 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+li {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  border: 2px solid lightgrey;
+  padding: 10px;
+  margin: 10px;
+  max-width: 500px;
+}
+
+#divUserInfo {
+  order: 1;
+  flex-grow: 5;
+  border: 2px solid lightgrey;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  order: 2;
+  padding: 15px;
+  width: 200px;
+  height: 200px;
+  flex-grow: 2;
+}
+
+#divUserCompany {
+  order: 3;
+  flex-grow: 1;
+}
